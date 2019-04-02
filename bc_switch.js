@@ -78,4 +78,13 @@ function setupStyles() {
                         display: none; \
                      } \
                   }", 2);
+
+    //turn the page view style off and on
+    webButton.onclick = function () {
+        pageStyle.disabled = true;
+    }
+
+    pageButton.onclick = function () {
+        pageStyle.disabled = false;
+    }
 }
